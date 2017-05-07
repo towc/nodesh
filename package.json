@@ -1,0 +1,26 @@
+{
+  "name": "nodesh",
+  "version": "0.0.1",
+  "description": "node shell and terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towc/nodesh.git"
+  },
+  "keywords": [
+    "shell",
+    "terminal"
+  ],
+  "author": "towc <matei@copot.eu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/towc/nodesh/issues"
+  },
+  "homepage": "https://github.com/towc/nodesh#readme",
+  "dependencies": {
+    "electron": "^1.6.6"
+  }
+}

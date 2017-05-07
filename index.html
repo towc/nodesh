@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>nodesh</title>
+    <style>
+      body {
+        background-color: rgba( 0, 0, 0, .8 );
+        font: 15px monospace;
+        color: #eee;
+      }
+      .input {
+        font: 15px monospace;
+        background-color: transparent;
+        color: #eee;
+        border: none;
+        margin-left: -8px;
+        caret-color: transparent;
+      }
+      .input:focus {
+        outline: none;
+      }
+      .content {
+        display: inline;
+      }
+      .caret {
+        display: inline;
+        width: 8px;
+        color: transparent;
+        animation: blink .5s linear alternate infinite;
+      }
+      @keyframes blink {
+        0% { background-color: rgba( 255, 255, 255, .3 ) }
+        100% { background-color: rgba( 255, 255, 255, .9 ) }
+      }
+    </style>
+  </head>
+  <body>
+    <pre class="js-content content"></pre>
+    <input class="js-input input"></input>
+    <div class="js-caret caret">.</div>
+    <script src="./index.js"></script>
+  </body>
+</html>
